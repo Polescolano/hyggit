@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>higgIT</title>
+<meta name="description" content="pagina principal refugio animales" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" media="screen and (min-width: 0px)" href="styles/styles.css" />
+<link rel="stylesheet" media="screen and (min-width: 0px)" href="styles/projects.css" />
+</head>
+
+<body>
+	<div class="container">		
+         <!-- Web Header content -->
+         <header>
+            <div class="logoTitle">
+                <H1>hyggIT</H1>
+                <!-- <p>Refugio de animales abandonados de Barcelona</p>-->
+            </div>
+            <!-- contact icons 
+            <div class="iconosHeader">
+                <a class="linkedinIcon" href="https://www.linkedin.com/in/polescolano/" target="_blank"></a>
+            </div>
+            <div class="iconosHeader">
+                <a class="githubIcon" href="https://github.com/Polescolano" target="_blank"></a>
+            </div>-->
+            <!-- Menu desplegable/horizontal -->
+            <div class="menuBox">
+                <!-- Boto/icona menu desplegable (sanwich menu)-->
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu">
+                    <img src="img/menu-icon2.png" alt="">
+                </label>
+                <!-- menu desplegable-->
+                <nav class="navegation">
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li><!-- borrar CCS submenu, user , chart -->
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+		</header>
+        <!-- This div cleans Header elements floats -->
+        <div style="clear:both; height: 0px; margin: 0px;"></div>
+        <!-- Web main content -->
+		<main> 
+            <article class="projectTitle">
+				<h3>Projects</h3>			
+            </article>
+            <article class="project">
+				<h5>Associations BI Project</h5>
+                <img src="img/biHyggit.png" alt="BI Hyggit project">
+                <img src="img/biHyggit2.png" alt="BI Hyggit project2">
+                <p>Project to segment associations. It was analyzed and segmented by location, activity sectors, number of workers and by groups.<br>
+                    We created the entire database from scratch, we cleaned it and prepared it to be analyzed in BI and it was analyzed based on the needs of the project.
+                </p>
+                <h5 class="techTitle"> Technologies used</h5>
+                <p align="left" class="techIcons"> 
+                    <a href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                    <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                </p>
+            </article>
+            <article class="project">
+				<h5> Project: BioDelicies a medium bakery company analysis</h5>
+                <img src="img/CapturaBio.PNG" alt="Biodelicies project">
+                <p>In this project we were asked to develop all the economic and stock analysis of a company that delivers bakery food made with organic and handmade products to stores where the product will be sold to a final customer.
+                    <br>The objective was to be able to present an analysis where all purchases/sales were shown, providing business intelligence and help in making future decisions for the client, always showing simple and understandable information.
+                    <br>* Dummy data on screen
+                </p>
+                <h5 class="techTitle"> Technologies used</h5>
+                <p align="left" class="techIcons"> 
+                    <a href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                    <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                    <a href="https://www.microsoft.com/es-es/microsoft-365/sharepoint/collaboration" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://img.icons8.com/fluency/256/microsoft-sharepoint-2019.png" alt="Sharepoint" width="80" height="40"/></a> 
+                </p>
+            </article>
+            <article class="project" style="display: none;">
+				<h5> Project: Cancer tumors detection with AI</h5>
+                <img src="img/sanitari.jpg" alt="Biodelicies project">
+                <p>
+                    The world of Deep Learning is proving to be superior in detecting diseases from X-rays, MRIs or others, which means that diseases can be diagnosed more quickly and more accurately than a doctor would in this case study.
+                    <br>In this case, we are talking about the fact that we seek to accelerate and improve the speed and precision with which we detect and locate malignant tumors through magnetic resonance imaging of the brain. If we were able to drastically reduce the costs of being diagnosed with such a cancer, we would help a lot, a lot with the early detection of tumors, which would improve people's quality of life considerably.<br>
+                    <br><b> · Python libraries used:</b> API de Queras, TensorFlow, OpenCV.
+                    <br><b> · Techniques used:</b> RestNet, Convolution techniques, transfer learning, dual model, ResUnet.
+                    <br><b> · Input and IA Trainning:</b> X-rays, MRIs and a total of three thousand nine hundred MRIs of the brain, along with the exact location of where in the brain the particular tumor is located.
+                    <br><b> · Output:</b> Detect if the tumor exists or does not exist, at the same time, locate exactly segmenting the image with which region the presence of that tumor corresponds to.
+                </p>
+                <h5 class="techTitle"> Technologies used</h5>
+                <p align="left" class="techIcons"> 
+                    <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" width="80" height="40"/></a> 
+                    <a href="https://pypi.org/project/opencv-python/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="80" height="40"/></a> 
+                    <a href="hhttps://www.tensorflow.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="80" height="40"/></a> 
+                </p>
+            </article>
+
+            <article style="height: 200px;">
+
+            </article>
+		</main>
+        <!-- Web Footer content -->
+        <div style="clear:both; height: 0px; margin: 0px;"></div>
+		<footer>
+            <div class="iconsFooter">
+                <a class="linkedinIcon" href="https://www.linkedin.com/company/hyggit/" target="_blank"></a>
+                <a class="instagramIcon" href="https://www.instagram.com/hygg_it/" target="_blank"></a>
+                <a class="emailIcon" href="mailto:hola.hyggit@outlook.com" target="_blank"></a>
+            </div> 
+            <div class="polFooter">
+                <a href="#">hola.hyggit@outlook.com</a>
+            </div>
+            <div class="rightsFooter">
+                <i>Copyright © 2023 hyggIT. All rights reserved.</i>
+            </div>
+		</footer>
+	</div>
+</body>
+</html>
